@@ -1,0 +1,55 @@
+@font-face {
+  font-family: 'ShortStack';
+  src: url('fonts/ShortStack.ttf') format('truetype');
+}
+
+#navegador{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#imagen{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+body{
+    background-image: url(images/background_index.png);
+    background-repeat: no-repeat;
+    background-size:100em;
+
+}
+nav{
+    background-image:url(images/texture.jpg);
+    background-position: center;
+}
+
+ul,li{
+    list-style-type: none;
+    display: inline-flex;
+    gap: 3em;
+}
+
+.boton_inicio{
+    color:  #FFD700;
+    font-family: "ShortStack";
+    cursor:pointer;
+    padding: 2em;
+}
+
+.logo{
+    width: 20em;
+}
+
+.logonirvana{
+    width: 80em;
+}
+
+.boton_inicio:hover{
+    padding: 2em;
+    background-color: #FFD700;
+    color: black;
+}
