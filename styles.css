@@ -3,24 +3,36 @@
   src: url('fonts/ShortStack.ttf') format('truetype');
 }
 
+@media (max-width: 768px) {
+  .row { flex-direction: column; }
+  nav ul { flex-direction: column; gap: 0.1px; }
+}
+
+
 #navegador{
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 
-#imagen{
-  display: flex;
-  justify-content: center;
+#contenido{
+  display:flex;
+  flex-direction: column;
   align-items: center;
 
+}
+
+#contenido2{
+    display: flex;
+    flex-direction: row;
 }
 
 body{
     background-image: url(images/background_index.png);
     background-repeat: no-repeat;
-    background-size:100em;
-
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
 }
 nav{
     background-image:url(images/texture.jpg);
@@ -45,11 +57,25 @@ ul,li{
 }
 
 .logonirvana{
-    width: 80em;
+    width: 75em;
+    margin-bottom: -20em;
 }
 
 .boton_inicio:hover{
     padding: 2em;
     background-color: #FFD700;
     color: black;
+}
+
+.lema{
+    font-size: 30px;
+    color: aliceblue;
+}
+
+.card{
+    border-color: aliceblue;
+    background-color: white;
+    padding: 10em;
+    margin-left: 5em;
+    display: flex;
 }
