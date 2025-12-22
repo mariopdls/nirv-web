@@ -229,3 +229,125 @@ p:hover{
 .textofoot{
     margin-top: -5em;
 }
+
+@media (max-width: 1024px){
+  .logonirvana{
+    width: 100%;
+    max-width: 900px;
+  }
+
+  #seccion{
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 0 1em;
+  }
+
+  #weeksong iframe{
+    width: 100%;
+    max-width: 1200px;
+    aspect-ratio: 16 / 9;
+    height: auto;
+    display: block;
+  }
+
+  footer p{
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 768px){
+  #navegador{
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  nav ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8em;
+  }
+
+  #lema{
+    margin-top: 0;
+    text-align: center;
+    padding: 0 1em;
+    font-size: 1.6em;
+  }
+
+  #seccion{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .caja1{
+    margin-left: 0;
+    width: 90%;
+    max-width: 420px;
+  }
+
+  .caja1 img{
+    width: 100%;
+    height: auto;
+  }
+
+  footer{
+    padding: 2.5em 1em;
+    align-items: center;
+    text-align: center;
+  }
+
+  .textofoot{
+    margin-top: 0;
+    width: 100%;
+    max-width: 520px;
+  }
+
+  .textofoot p{
+    margin: 0.8em auto 0;
+    margin-right: 0;
+    max-width: 48ch;
+    padding: 0.7em 1em;
+    background-color: rgba(0,0,0,0.75);
+    border-radius: 10px;
+  }
+
+  .logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    margin-top: 1.6em;
+  }
+
+  .image2{
+    margin-bottom: 0;
+    width: 32px;
+  }
+}
+
+@media (max-width: 480px){
+  .logo{
+    width: 12em;
+  }
+
+  .boton_inicio{
+    padding: 1em;
+  }
+
+  #weeksong{
+    font-size: 1.1em;
+  }
+
+  footer{
+    padding: 2em 0.9em;
+  }
+
+  .textofoot{
+    max-width: 420px;
+  }
+
+  .image2{
+    width: 28px;
+  }
+}
