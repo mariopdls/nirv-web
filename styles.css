@@ -3,6 +3,18 @@
   src: url('fonts/ShortStack.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'Sunshiney';
+  src: url('fonts/Sunshiney-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Staatliches';
+  src: url('fonts/Staatliches-Regular.ttf') format('truetype');
+}
+
+
+
 @media (max-width: 768px) {
   .row { flex-direction: column; }
   nav ul { flex-direction: column; gap: 0.1px; }
@@ -27,6 +39,19 @@
     flex-direction: row;
 }
 
+#imagen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seccion{
+    display: flex;
+    justify-content: center;
+    gap: 5em;
+    margin-top: -10em;
+}
+
 body{
     background-image: url(images/background_index.png);
     background-repeat: no-repeat;
@@ -45,6 +70,7 @@ ul,li{
     gap: 3em;
 }
 
+
 .boton_inicio{
     color:  #FFD700;
     font-family: "ShortStack";
@@ -58,7 +84,7 @@ ul,li{
 
 .logonirvana{
     width: 75em;
-    margin-bottom: -20em;
+    text-align: center;
 }
 
 .boton_inicio:hover{
@@ -72,10 +98,71 @@ ul,li{
     color: aliceblue;
 }
 
-.card{
-    border-color: aliceblue;
-    background-color: white;
-    padding: 10em;
+.caja1{
+    background-color:transparent;
+    border: 2px solid gray;
+    padding-bottom: 15em;
     margin-left: 5em;
     display: flex;
+    flex-direction: column;
+    font-family: "ShortStack";
+    text-align: center;
+    color: white;
+}
+
+.caja1 img{
+    width: 20em;
+    border-bottom: 2px solid gray;
+    padding: 0.1em;
+}
+
+.caja1 p{
+    font-size: 1.9em;
+    font-family:"Staatliches", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.caja1 p+p{
+    font-size: 1.9em;
+    margin-top:-1em ;
+    margin-bottom: 2em;
+    border-bottom: 2px solid gray;
+    font-family: "Sunshiney";
+}
+
+p:hover{
+    text-decoration:underline
+}
+
+.seemore{
+    padding-top: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 0.5em;
+    background-color: transparent;
+    border: 2px solid gray;
+    font-size: 1.5em;
+    color: white;
+    cursor: pointer;
+}
+
+.seemore:hover{
+    background-color: #FFD700;
+    color: black;
+}
+
+.seemore2{
+    padding-top: 0.5em;
+    margin-left: 2em;
+    margin-right: 2em;
+    padding-bottom: 0.5em;
+    background-color: #C0A86F;
+    border: 2px solid gray;
+    font-size: 1.5em;
+    color: black;
+    cursor: pointer;
+}
+
+.seemore2:hover{
+    background-color: white;
+    color: black;
 }
