@@ -4,5 +4,5 @@
 
 ### Authors
 - Mario Porras
-- Tristán Ayuso
+- Tristán Martínez
 - Reyes Aguilar
