@@ -1,3 +1,6 @@
+
+/*FUENTES QUE HE IMPORTADO*/
+
 @font-face {
   font-family: 'ShortStack';
   src: url('fonts/ShortStack.ttf') format('truetype');
@@ -18,12 +21,67 @@
   src: url('fonts/JustMeAgainDownHere-Regular.ttf') format('truetype');
 }
 
-
-@media (max-width: 768px) {
-  .row { flex-direction: column; }
-  nav ul { flex-direction: column; gap: 0.1px; }
+@font-face {
+  font-family: 'Swanky';
+  src: url('fonts/SwankyandMooMoo-Regular.ttf') format('truetype');
 }
 
+/*Elementos Generales*/
+
+body{
+    background-image: url(images/background_index.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    display: flex;
+    flex-direction: column;
+    background-attachment:fixed;
+}
+nav{
+    background-image:url(images/texture.jpg);
+    background-position: center;
+}
+
+ul,li{
+    list-style-type: none;
+    display: inline-flex;
+    gap: 3em;
+}
+
+footer{
+    padding: 7em;
+    background-image: url(images/texture.jpg);
+    background-position:bottom;
+    margin-top: 2.5em;
+    display: flex;
+    flex-direction: column;
+}
+
+footer h2{
+    color: white;
+}
+
+footer p{
+    color: rgb(228, 223, 223);
+    background-color: black;
+    margin-right: 62em;
+}
+
+p:hover{ /* Con el hover hice que todos los párrafos se vean con underline. Si no estáis de acuerdo, comentádmelo. */
+
+    text-decoration:underline
+}
+
+
+table,tr,td,th{
+  border: solid 2px rgb(81, 59, 5);
+  border-image: url(images/texture3.jfif);
+  border-image-slice: 30;
+  background-color: rgba(255, 255, 255, 0.06);
+
+  
+}
+
+/*IDs*/
 
 #navegador{
     display: flex;
@@ -76,48 +134,7 @@
     font-size: 2em;
 }
 
-body{
-    background-image: url(images/background_index.png);
-    background-repeat: no-repeat;
-    background-size:cover;
-    display: flex;
-    flex-direction: column;
-}
-nav{
-    background-image:url(images/texture.jpg);
-    background-position: center;
-}
-
-ul,li{
-    list-style-type: none;
-    display: inline-flex;
-    gap: 3em;
-}
-
-footer{
-    padding: 7em;
-    background-image: url(images/texture.jpg);
-    background-position:bottom;
-    margin-top: 2.5em;
-    display: flex;
-    flex-direction: column;
-}
-
-footer h2{
-    color: white;
-}
-
-footer p{
-    color: rgb(228, 223, 223);
-    background-color: black;
-    margin-right: 62em;
-}
-
-p:hover{
-    text-decoration:underline
-}
-
-
+/* Clases */
 .boton_inicio{
     color:  #FFD700;
     font-family: "ShortStack";
@@ -167,7 +184,7 @@ p:hover{
 
 .caja1 p{
     font-size: 1.9em;
-    font-family:"Staatliches", Tahoma, Geneva, Verdana, sans-serif;
+    font-family:"Staatliches";
 }
 
 .caja1 p+p{
@@ -231,124 +248,62 @@ p:hover{
     margin-top: -5em;
 }
 
-@media (max-width: 1024px){
-  .logonirvana{
-    width: 100%;
-    max-width: 900px;
-  }
-
-  #seccion{
-    flex-wrap: wrap;
-    gap: 2em;
-    padding: 0 1em;
-  }
-
-  #weeksong iframe{
-    width: 100%;
-    max-width: 1200px;
-    aspect-ratio: 16 / 9;
-    height: auto;
-    display: block;
-  }
-
-  footer p{
-    margin-right: 0;
-  }
+.album_seccion{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  font-family: "ShortStack";
+  color:#FFD700;
 }
 
-@media (max-width: 768px){
-  #navegador{
-    flex-direction: column;
-    gap: 1em;
-  }
-
-  nav ul{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 0.8em;
-  }
-
-  #lema{
-    margin-top: 0;
-    text-align: center;
-    padding: 0 1em;
-    font-size: 1.6em;
-  }
-
-  #seccion{
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .caja1{
-    margin-left: 0;
-    width: 90%;
-    max-width: 420px;
-  }
-
-  .caja1 img{
-    width: 100%;
-    height: auto;
-  }
-
-  footer{
-    padding: 2.5em 1em;
-    align-items: center;
-    text-align: center;
-  }
-
-  .textofoot{
-    margin-top: 0;
-    width: 100%;
-    max-width: 520px;
-  }
-
-  .textofoot p{
-    margin: 0.8em auto 0;
-    margin-right: 0;
-    max-width: 48ch;
-    padding: 0.7em 1em;
-    background-color: rgba(0,0,0,0.75);
-    border-radius: 10px;
-  }
-
-  .logos{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 18px;
-    margin-top: 1.6em;
-  }
-
-  .image2{
-    margin-bottom: 0;
-    width: 32px;
-  }
+.album_seccion h1{
+  font-size: 3em;
 }
 
-@media (max-width: 480px){
-  .logo{
-    width: 12em;
-  }
+.album_seccion h2{
+  font-size: 2em;  
+}
 
-  .boton_inicio{
-    padding: 1em;
-  }
+.album_seccion p {
+  margin-top: -1em;
+  margin-bottom: 3em;
+}
 
-  #weeksong{
-    font-size: 1.1em;
-  }
+.albumes{
+  width: 20em;
+}
 
-  footer{
-    padding: 2em 0.9em;
-  }
+.song_text{
+  color: white;
+}
 
-  .textofoot{
-    max-width: 420px;
-  }
+.tablesongs th{
+  font-size: 1.5em;
+  font-family: "Staatliches";
+  color: white;
+}
 
-  .image2{
-    width: 28px;
-  }
+.album_seccion2{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 2em;
+  border: solid 1px rgb(175, 175, 35);
+  background-color: rgba(249, 246, 246, 0.206);
+
+}
+
+.kurtsays{
+  font-family: "Swanky";
+  color: #FFD700;
+}
+
+.kurtsays2{
+  font-family: "Swanky";
+  color: #ffffff;
+  margin-top: -1em;
 }
