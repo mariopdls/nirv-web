@@ -127,6 +127,7 @@ p:hover{
 
 .logo{
     width: 20em;
+    cursor: pointer;
 }
 
 .logonirvana{
