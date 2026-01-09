@@ -306,3 +306,71 @@ table,tr,td,th{
   color: #ffffff;
   margin-top: -1em;
 }
+
+ /* Reyes  */
+
+.fans {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    color: white;
+}
+
+.title {
+    color: #FFD700;
+    font-size: 3em;
+}
+
+.contenedoresfans {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    max-width: 500px;
+}
+
+.testimoniosfans {
+    background: linear-gradient(145deg, #000000, #c3e30ba7);
+    border-radius: 30px;
+    padding: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+}
+
+.bloquesfans {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.iconfans {
+    background: white;
+    color: black;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.usuariofans {
+    display: flex;
+    flex-direction: column;
+}
+
+.usuariofans strong {
+    font-size: 1.1rem;
+}
+
+.usuariofans span {
+    font-size: 0.9rem;
+    opacity: 0.8;
+}
+
+.textofans {
+    font-style: italic;
+    line-height: 1.6;
+    font-size: 0.95rem;
+    margin: 0;
+}
