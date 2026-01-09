@@ -28,17 +28,3 @@ Lista de tareas basada en los criterios de evaluación del proyecto
 | 21 | **Informe final** del proceso (subida al hosting + capturas)                     | [ ]        | Alta      | Explicar pasos + problemas encontrados + soluciones                              |
 | 22 | Capturas de pantalla                                                         | [ ]        | Alta      | 1. Validador HTML   2. Accesibilidad   3. Responsive (móvil/desktop)            |
 | 23 | Archivo .zip con toda la estructura del proyecto bien organizado                 | [ ]        | Alta      | Lo que se entrega al profesor                                                     |
-
-## Orden recomendado de trabajo (prioridades altas primero)
-
-1. Estructura HTML semántica + validación W3C  
-2. Responsive (mobile first) con Flex/Grid  
-3. Accesibilidad (contrastes + alt + etiquetas + navegación teclado)  
-4. Trello bien organizado desde el principio  
-5. Navegación + formulario + elementos interactivos  
-6. Diseño visual y pulido CSS  
-7. GitHub + commits progresivos  
-8. Subida al hosting + pruebas finales  
-9. Documentación, capturas e informe
-
-¡Mucha suerte con el proyecto! 🚀
