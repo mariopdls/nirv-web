@@ -76,7 +76,7 @@ table,tr,td,th{
   border: solid 2px rgb(81, 59, 5);
   border-image: url(images/texture3.jfif);
   border-image-slice: 30;
-  background-color: rgba(255, 255, 255, 0.06);
+  background-color: rgba(37, 36, 36, 0.425);
 
   
 }
@@ -282,7 +282,6 @@ table,tr,td,th{
 .tablesongs th{
   font-size: 1.5em;
   font-family: "Staatliches";
-  color: white;
 }
 
 .album_seccion2{
