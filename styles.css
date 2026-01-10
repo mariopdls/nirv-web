@@ -374,3 +374,122 @@ table,tr,td,th{
     font-size: 0.95rem;
     margin: 0;
 }
+
+
+/*Archive */
+.titulo_archive{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "ShortStack";
+    color:#FFD700;
+}
+
+.subtitulo_archive{
+    display: flex;
+    font-size: 10px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-family: "ShortStack";
+    color:#ffffff;
+}
+
+.imagen_primera{
+    position: relative;
+    top: 18em;
+    margin-left: 17%;
+}
+
+.imagen_segunda{
+    position: relative;
+    top: 17em;
+    margin-left: 65%;
+}
+
+.imagen_tercera{
+    position: relative;
+    top: 17em;
+    margin-left: 17%;
+}
+
+.imagen_cuarta{
+    position: relative;
+    top: 18em;
+    margin-left: 65%;
+}
+
+
+.imagen_primera,
+.imagen_segunda,
+.imagen_tercera,
+.imagen_cuarta{
+    width: 200px;
+    border:3px solid #7a7420;
+    background:black;
+}
+
+.imagen_centro{
+    width: 500px;
+    margin: auto;
+    border:3px solid #7a7420;
+    background:black;
+}
+
+/*Bloques de texto*/
+.beginning_archive,
+.debut_archive,
+.breakthrough_archive,
+.creative_archive,
+.goodbye_archive{
+    width:38%;
+    background:#7a7420;
+    color:#111;
+    padding:1.5em;
+    border-radius:25px;
+    font-family:"ShortStack";
+    margin:3em 0;
+}
+
+/*Textos derecha*/
+.beginning_archive,
+.breakthrough_archive{
+    margin-left: 43%;
+}
+
+/*Textos izquierda*/
+.debut_archive,
+.creative_archive{
+    margin-left:15%;
+}
+
+/*Texto último*/
+.goodbye_archive{
+    margin:3em auto;
+    text-align:center;
+}
+
+/*Todo el texto de archive*/
+.beginning_archive p,
+.debut_archive p,
+.breakthrough_archive p,
+.creative_archive p,
+.goodbye_archive p{
+    font-size:0.9em;
+    line-height:1.6; /*Distancia entre cada linea de texto*/
+    color: #ffffff;
+}
+
+.linea_vertical{
+    width: 3px;
+    height: 200vh;/*Tamaño de a linea*/
+    position: absolute;
+    top: 650px;
+    left: 50%;
+    transform: translateX(-50%);/* Centra exactamente la línea */
+    background-color: #7a7420;
+    z-index: -1;/*Para que esté atrás de todos los elementos*/
+}
