@@ -320,6 +320,7 @@ table,tr,td,th{
 .title {
     color: #FFD700;
     font-size: 3em;
+    text-align: center;
 }
 
 .contenedoresfans {
@@ -375,6 +376,51 @@ table,tr,td,th{
     margin: 0;
 }
 
+.contactofans{
+  max-width: 600px;
+  width: 90%;
+  font-family: Arial, sans-serif;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.campofans {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 16px;
+  flex: 1;
+}
+
+label {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 6px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  font-size: 14px;
+}
+
+textarea {
+  min-height: 120px;
+}
+
+button {
+  padding: 12px 90px;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #222222;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+/* TRISTAN */
 
 /*Archive */
 .titulo_archive{
