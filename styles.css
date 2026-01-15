@@ -445,26 +445,34 @@ button {
 }
 
 .imagen_primera{
+    max-width: 200px;
+    height: auto;
     position: relative;
-    top: 18em;
-    margin-left: 17%;
+    top: 13.5em;
+    margin-left: 22%;
 }
 
 .imagen_segunda{
+    max-width: 200px;
+    height: auto;
     position: relative;
-    top: 17em;
+    top: 13em;
     margin-left: 65%;
 }
 
 .imagen_tercera{
+    max-width: 200px;
+    height: auto;
     position: relative;
-    top: 17em;
-    margin-left: 17%;
+    top: 13em;
+    margin-left: 22%;
 }
 
 .imagen_cuarta{
+    max-width: 200px;
+    height: auto;
     position: relative;
-    top: 18em;
+    top: 13.5em;
     margin-left: 65%;
 }
 
@@ -473,9 +481,27 @@ button {
 .imagen_segunda,
 .imagen_tercera,
 .imagen_cuarta{
-    width: 200px;
     border:3px solid #7a7420;
     background:black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+}
+
+.imagen_primera img,
+.imagen_segunda img,
+.imagen_tercera img,
+.imagen_cuarta img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;/* cubre el marco sin deformarse */
+    display: block;
+}
+.imagen_centro img {
+    width: 500px;
+    height: auto;
 }
 
 .imagen_centro{
@@ -483,6 +509,7 @@ button {
     margin: auto;
     border:3px solid #7a7420;
     background:black;
+    position: relative;
 }
 
 /*Bloques de texto*/
@@ -497,24 +524,24 @@ button {
     padding:1.5em;
     border-radius:25px;
     font-family:"ShortStack";
-    margin:3em 0;
+    margin:1em
 }
 
 /*Textos derecha*/
 .beginning_archive,
 .breakthrough_archive{
-    margin-left: 43%;
+    margin-left: 38%;
 }
 
 /*Textos izquierda*/
 .debut_archive,
 .creative_archive{
-    margin-left:15%;
+    margin-left:20%;
 }
 
 /*Texto último*/
 .goodbye_archive{
-    margin:3em auto;
+    margin: 5em auto;
     text-align:center;
 }
 
@@ -525,17 +552,21 @@ button {
 .creative_archive p,
 .goodbye_archive p{
     font-size:0.9em;
-    line-height:1.6; /*Distancia entre cada linea de texto*/
+    line-height:1.6;/*Distancia entre cada linea de texto*/
     color: #ffffff;
 }
 
 .linea_vertical{
     width: 3px;
-    height: 200vh;/*Tamaño de a linea*/
     position: absolute;
-    top: 650px;
+    top: 18em;
+    bottom: 0;
     left: 50%;
-    transform: translateX(-50%);/* Centra exactamente la línea */
+    transform: translateX(-50%);/*Centra exactamente la línea */
     background-color: #7a7420;
     z-index: -1;/*Para que esté atrás de todos los elementos*/
+}
+
+.archive_timeline{
+    position: relative;
 }
