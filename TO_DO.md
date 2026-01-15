@@ -21,7 +21,7 @@ Lista de tareas basada en los criterios de evaluación del proyecto
 | 14 | **Favicon** visible en todas las páginas                                         | [✅]        | Baja      | `<link rel="icon">` en el head                                                    |
 | 15 | Diseño visual atractivo y coherente                                              | [✅]        | Media     | Paleta de colores, tipografías consistentes, espaciados, jerarquía               |
 | 16 | Buen uso de **CSS** (no inline styles excesivos, clases lógicas)                 | [✅]        | Alta      | Organización del css, comentarios útiles                                          |
-| 17 | JavaScript (opcional pero suma puntos) – si se implementa                        | [ ] No / [ ] Sí | Opcional  | Funcionalidad limpia, sin errores en consola                                      |
+| 17 | JavaScript (opcional pero suma puntos) – si se implementa                        | [ ]         | Opcional  | Funcionalidad limpia, sin errores en consola                                      |
 | 18 | **Estructura de carpetas** limpia y lógica                                       | [✅]        | Media     | `css/`, `img/`, `js/` (si hay), `pages/` o todo en raíz ordenado                 |
 | 19 | Repositorio **GitHub** con commits frecuentes y descriptivos                     | [✅]        | Alta      | Buen historial de commits                                                         |
 | 20 | Web publicada en **hosting** (000webhost, Netlify, Vercel, etc.)                 | [ ]        | Alta      | URL funcional y accesible                                                         |
