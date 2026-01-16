@@ -7,7 +7,7 @@ Lista de tareas basada en los criterios de evaluación del proyecto
 |----|----------------------------------------------------------------------------------|------------|-----------|-----------------------------------------------------------------------------------|
 | 1  | Tablero de **Trello** creado y bien organizado                                   | [✅]        | Alta      | Historias de usuario, tareas detalladas, mockups, asignación                      |
 | 2  | Temática definida y contenido seleccionado                                       | [✅]        | Media     | ¿Es interesante? ¿Está bien organizado y redactado?                              |
-| 3  | **HTML5 válido** en TODAS las páginas (W3C Validator)                            | []        | Alta      | 0 errores obligatorios – hacer captura del validador                             |
+| 3  | **HTML5 válido** en TODAS las páginas (W3C Validator)                            | [✅]        | Alta      | 0 errores obligatorios – hacer captura del validador                             |
 | 4  | Estructura semántica correcta: header, nav, main, footer, aside                  | [✅]        | Alta      | Usar etiquetas semánticas HTML5 correctamente                                     |
 | 5  | Diseño **responsive** con **media queries**                                      | [ ]        | Alta      | Probar mínimo: móvil (<480–600px), tablet, escritorio                            |
 | 6  | Uso de **Flexbox** y/o **Grid** en al menos 2–3 zonas importantes                | [✅]        | Alta      | Menú, tarjetas de contenido, footer, etc.                                         |
