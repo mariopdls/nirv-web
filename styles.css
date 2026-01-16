@@ -163,8 +163,8 @@ table,tr,td,th{
     color: aliceblue;
 }
 
-.caja1{
-    background-color:transparent;
+.caja_1{
+    background-color:rgba(0, 0, 0, 0.582);
     border: 2px solid gray;
     padding-bottom: 4em;
     margin-left: 5em;
@@ -175,21 +175,21 @@ table,tr,td,th{
     color: white;
 }
 
-.caja1 img{
-    width: 20em;
+.caja_1 img{
+    width: 26em;
     border-bottom: 2px solid gray;
     padding: 0.1em;
-    height: 290px;
+    height: 400px;
 }
 
-.caja1 p{
+.caja_ p{
     font-size: 1.9em;
     font-family:"Staatliches";
 }
 
-.caja1 p+p{
-    font-size: 1.9em;
-    margin-top:-1em ;
+.caja_1 p+p{
+    font-size: 2em;
+    margin-top:-0.2em ;
     margin-bottom: 2em;
     border-bottom: 2px solid gray;
     font-family: "Sunshiney";
