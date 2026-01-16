@@ -317,12 +317,6 @@ table,tr,td,th{
     color: white;
 }
 
-.fans h1 {
-    color: #FFD700;
-    font-size: 3em;
-    text-align: center;
-}
-
 .contenedoresfans {
     display: flex;
     flex-direction: column;
