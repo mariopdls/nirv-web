@@ -164,7 +164,7 @@ table,tr,td,th{
 }
 
 .caja_1{
-    background-color:rgba(0, 0, 0, 0.582);
+    background-color:rgba(0, 0, 0, 0.747);
     border: 2px solid gray;
     padding-bottom: 4em;
     margin-left: 5em;
@@ -257,7 +257,9 @@ table,tr,td,th{
   font-family: "ShortStack";
   color:#FFD700;
 }
-
+.letras_albumes {
+    background-color: #000000c5;
+}
 .album_seccion h1{
   font-size: 3em;
 }
