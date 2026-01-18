@@ -294,7 +294,7 @@ table,tr,td,th{
   align-items: center;
   margin-top: 2em;
   border: solid 1px rgb(175, 175, 35);
-  background-color: rgba(249, 246, 246, 0.206);
+  background-color: rgba(5, 5, 5, 0.562);
 
 }
 
@@ -305,7 +305,7 @@ table,tr,td,th{
 
 .kurtsays2{
   font-family: "Swanky";
-  color: #ffffff;
+  color: #fffafa;
   margin-top: -1em;
 }
 
@@ -565,4 +565,321 @@ button {
 
 .archive_timeline{
     position: relative;
+}
+
+
+/*Responsive*/
+
+@media (max-width: 1024px){
+  #navegador{
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.6em 1em;
+    gap: 1em;
+  }
+
+  #navegador ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1em;
+    padding: 0;
+    margin: 0;
+  }
+
+  #navegador li{ display: flex; }
+
+  .boton_inicio{
+    padding: 1em;
+    font-size: 0.95em;
+  }
+
+  .boton_inicio:hover{ padding: 1em; }
+
+  .logo{ width: 14em; }
+
+  .logonirvana{ width: min(50em, 92vw); }
+
+  #lema{
+    margin-top: -4em;
+    font-size: 1.6em;
+    text-align: center;
+    padding: 0 1em;
+  }
+
+  #seccion{
+    flex-wrap: wrap;
+    gap: 2em;
+    padding: 0 1em;
+  }
+
+  .caja_1{
+    margin-left: 0;
+    flex: 1 1 320px;
+    max-width: 360px;
+    padding-bottom: 2.5em;
+  }
+
+  .caja_1 img{
+    width: 100%;
+    height: auto;
+    max-height: 280px;
+    object-fit: cover;
+  }
+
+  .caja_1 p+p{ font-size: 1.6em; }
+
+  .seemore,
+  .seemore2{
+    font-size: 1.1em;
+    margin-left: 1em;
+    margin-right: 1em;
+    padding: 0.7em 1em;
+  }
+
+  #weeksong{
+    font-size: 1.2em;
+    padding: 0 1em;
+  }
+
+  .video iframe{
+    width: 100%;
+    max-width: 900px;
+    height: auto;
+    aspect-ratio: 16 / 9;
+    border: 0;
+  }
+
+  footer{
+    padding: 3em 1.5em;
+  }
+
+  footer p{
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+  .textofoot{ margin-top: 0; }
+
+  .image2{ margin-bottom: 0; }
+
+  .album_seccion h1{ font-size: 2.4em; }
+  .album_seccion h2{ font-size: 1.8em; }
+  .albumes{ width: 16em; }
+
+  .tablesongs{
+    max-width: 100%;
+  }
+
+  .tablesongs th{ font-size: 1.2em; }
+
+  .linea_vertical{ display: none; }
+
+  .archive_timeline{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    align-items: center;
+  }
+
+  .imagen_primera,
+  .imagen_segunda,
+  .imagen_tercera,
+  .imagen_cuarta{
+    position: static;
+    top: auto;
+    margin: 0 auto;
+    width: 240px;
+    max-width: 80vw;
+  }
+
+  .imagen_primera img,
+  .imagen_segunda img,
+  .imagen_tercera img,
+  .imagen_cuarta img{
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+  }
+
+  .beginning_archive,
+  .debut_archive,
+  .breakthrough_archive,
+  .creative_archive,
+  .goodbye_archive{
+    width: min(92%, 720px);
+    margin: 0 auto;
+  }
+
+  .beginning_archive,
+  .breakthrough_archive,
+  .debut_archive,
+  .creative_archive{
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .goodbye_archive{ margin: 0 auto; }
+
+  .imagen_centro{
+    width: min(92%, 720px);
+    margin: 0 auto;
+    position: static;
+  }
+
+  .imagen_centro img{
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 768px){
+  body{ background-attachment: scroll; }
+
+  #navegador{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6em;
+    padding: 0.8em 1em;
+  }
+
+  #navegador ul{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.3em;
+  }
+
+  #navegador li{ display: block; }
+
+  .boton_inicio{
+    display: block;
+    width: 100%;
+    text-align: center;
+    padding: 0.8em 1em;
+  }
+
+  .boton_inicio:hover{ padding: 0.8em 1em; }
+
+  .logo{ width: 12em; }
+
+  .logonirvana{ width: min(26em, 90vw); }
+
+  #lema{
+    margin-top: 0;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0 1em;
+  }
+
+  #seccion{
+    flex-direction: column;
+    gap: 1.5em;
+    padding: 0 1em;
+    margin-top: 2em;
+  }
+
+  .caja_1{
+    width: 100%;
+    max-width: 26em;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+
+  .caja_1 img{
+    max-height: 220px;
+  }
+
+  .caja_1 p+p{ font-size: 1.4em; }
+
+  .seemore,
+  .seemore2{
+    width: calc(100% - 2em);
+    margin: 0 1em;
+    font-size: 1.05em;
+    padding: 0.7em 1em;
+  }
+
+  #weeksong{
+    font-size: 1.05em;
+    padding: 0 1em;
+  }
+
+  .video iframe{
+    max-width: 100%;
+  }
+
+  footer{
+    padding: 2em 1em;
+    align-items: center;
+    text-align: center;
+  }
+
+  footer p{
+    margin-right: 0;
+  }
+
+  .textofoot{ margin-top: 0; }
+
+  .logos{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .image2{
+    margin-bottom: 0;
+    width: 28px;
+  }
+
+  .album_seccion h1{ font-size: 2em; }
+  .album_seccion h2{ font-size: 1.5em; }
+  .albumes{ width: 14em; }
+
+  .album_seccion p{
+    margin-top: 0;
+    margin-bottom: 2em;
+    padding: 0 1em;
+  }
+
+  .tablesongs{
+    display: block;
+    width: 100%;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  .tablesongs th{ font-size: 1.05em; }
+
+  .album_seccion2{
+    margin-left: 1em;
+    margin-right: 1em;
+  }
+
+  .contactofans{
+    width: 92%;
+  }
+
+  .contactofans button{
+    width: 100%;
+    padding: 12px 0;
+  }
+}
+
+@media (max-width: 480px){
+  .logo{ width: 10.5em; }
+  .logonirvana{ width: min(22em, 90vw); }
+
+  .boton_inicio{ padding: 0.7em 0.8em; }
+
+  .caja_1{ max-width: 22em; }
+  .caja_1 img{ max-height: 190px; }
+
+  .albumes{ width: 12em; }
+
+  .image2{ width: 26px; }
 }
