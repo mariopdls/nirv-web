@@ -117,7 +117,7 @@ table,tr,td,th{
 #weeksong{
     font-family: "JustMe";
     color: white;
-    font-size: 1.4em;
+    font-size: 2em;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -137,6 +137,7 @@ table,tr,td,th{
 /* Clases */
 .boton_inicio{
     color:  #FFD700;
+    font-size: 30px;
     font-family: "ShortStack";
     cursor:pointer;
     padding: 2em;
@@ -194,8 +195,44 @@ table,tr,td,th{
     border-bottom: 2px solid gray;
     font-family: "Sunshiney";
 }
+.tablesongs th,
+.tablesongs td {
+    padding: 25px;
+}
 
+.tablesongs {
+    border-collapse: collapse;
+    width: 90%;
+}
+.seemore, .seemore2 {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
 
+.seemore {
+    background-color: #000;
+    color: #fff;
+}
+
+.seemore:hover, .seemore:focus {
+    background-color: #444;
+}
+
+.seemore2 {
+    background-color: #fff;
+    color: #000;
+    border: 2px solid #000;
+}
+
+.seemore2:hover, .seemore2:focus {
+    background-color: #000;
+    color: #fff;
+}
 .seemore{
     padding-top: 0.5em;
     margin-left: 2em;
@@ -836,8 +873,8 @@ button {
     width: 28px;
   }
 
-  .album_seccion h1{ font-size: 2em; }
-  .album_seccion h2{ font-size: 1.5em; }
+  .album_seccion h1{ font-size: 2.5em; }
+  .album_seccion h2{ font-size: 2em; }
   .albumes{ width: 14em; }
 
   .album_seccion p{
