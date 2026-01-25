@@ -84,13 +84,19 @@
         </table>
     </div>
 
-    <div class="album_seccion2">
+    <!-- ✅ MODIFICADO: Kurt says con botón + frase aleatoria -->
+    <div class="album_seccion2" id="kurt-section">
         <h2 class="kurtsays">Kurt Cobain Says:</h2>
-        <h2 class="kurtsays2">
-            "Practice makes perfect, but nobody's perfect, so why practice?"
+
+        <h2 class="kurtsays2" id="kurt-quote">
+            Click the button to get a quote.
         </h2>
+
+        <button id="kurt-btn" type="button">
+            New quote
+        </button>
     </div>
-    
+
     <footer>
         <div class="textofoot">
             <h2>Heart-Shaped Club</h2>
@@ -109,5 +115,7 @@
             </a>
         </div>
     </footer>
+
+    <script src="kurt.js"></script>
 </body>
 </html>
