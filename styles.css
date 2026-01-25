@@ -451,7 +451,10 @@ button {
 }
 
 /* Reyes MAPS */
-
+iframe {
+  padding: 40px;
+  margin:0 auto;
+}
 
 /* TRISTAN */
 
